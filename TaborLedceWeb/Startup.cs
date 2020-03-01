@@ -47,8 +47,7 @@ namespace TaborLedceWeb
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            //Register Syncfusion license
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MjE3NzQ4QDMxMzcyZTM0MmUzMGJvT1M3d3BHN2ZXeC9tZzNrUHdobVhtV0JKM2pXaGZ6QUs5aUVkUDViSmM9");
+           
 
             if (env.IsDevelopment())
             {
